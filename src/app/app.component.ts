@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'component-and-databinding';
+  serverElements = [{type: 'server', name: 'typescript', content: 'jus for testing'},
+            {type: 'server', name: 'typescript1', content: 'jus for testing1'}];
+
 }
